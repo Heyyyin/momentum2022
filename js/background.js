@@ -2,6 +2,7 @@ const images=["pexels-emiliano-arano-1298684.jpg", "pexels-flo-maderebner-869258
 
 const chosenImage= images[Math.floor(Math.random()*images.length)];
 
+
 const bgImage=document.createElement("img");
 bgImage.classList.add("background");
 
