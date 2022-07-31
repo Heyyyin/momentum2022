@@ -101,7 +101,7 @@
     padding: 3px;
 }
 
-.button{ 
+#todo-list button{ 
     margin-left: 20px;
     color:red;
 }
