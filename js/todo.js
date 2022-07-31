@@ -2,7 +2,7 @@ const toDoForm= document.getElementById("todo-form");
 const toDoInput=toDoForm.querySelector("input");
 const toDoList=document.getElementById("todo-list");
 
-const TODOS_KEY="toDos"
+const TODOS_KEY="toDos";
 
 let toDos=[];
 
@@ -27,10 +27,11 @@ function paintToDo(newToDo){
     const button=document.createElement("button");
     button.innerText="❌";
     button.addEventListener("click",deleteToDo);
+   
     li.appendChild(span);
     li.appendChild(button);
-    
     toDoList.appendChild(li);
+    
     li.classList.add("li");
     button.classList.add("button");
 }
