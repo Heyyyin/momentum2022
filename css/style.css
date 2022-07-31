@@ -82,18 +82,40 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 70vw;
+    width: 80vw;
     background-color:aliceblue ;
     color:#1782ca;
     box-shadow: 10px 5px 5px #9ad3f8;
     border-radius: 30px;
     margin: 5px;
-    width: 600px;
+    
 }
 
 #todo-list li{
-    margin: 5px 0;
+    margin-top: 10px;
+    width:95%;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
 }
+
+.button{ 
+    margin-left: 20px;
+    color:red;
+}
+
+
+#todo-list li:hover{
+    background-color:#f7b4b4 ;
+    box-shadow: 10px 5px 5px#f77777;   
+}
+
+#todo-list button :hover{
+    cursor:pointer;
+}
+
 
 #quote{
     margin: 20px;
@@ -114,26 +136,3 @@
 }
 
 
-.button{ 
-    margin-left: 20px;
-    color:red;
-}
-
-.li{
-    width:80%;
-    border-radius: 20px;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.li:hover{
-    background-color:#f7b4b4 ;
-    box-shadow: 10px 5px 5px#f77777;
-    
-}
-.button :hover{
-    cursor:pointer;
-}
-s
