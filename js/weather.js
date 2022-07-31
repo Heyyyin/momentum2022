@@ -15,7 +15,7 @@ function onGeoOk(position){
       
         city.innerText=data.name;
         weather.innerText=data.weather[0].main;
-        temperature.innerText=`  stemperature ${Math.round(data.main.temp)}℃,  `;
+        temperature.innerText=`  temperature ${Math.round(data.main.temp)}℃,  `;
         temperatureRange.innerText=`min ${Math.round(data.main.temp_min)}℃ / max ${Math.round(data.main.temp_max)}℃,  `;
         temperatureFeelslike.innerText=`It feels like ${Math.round(data.main.feels_like)}℃`;
 
