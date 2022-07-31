@@ -1,0 +1,133 @@
+@import "reset.css";
+
+.hidden{
+    display: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background {
+    position: absolute;
+    top:0;
+    z-index: -10;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0.7;
+  }
+
+
+  #greeting{
+    font-size: 30px;
+    font-weight: 600;
+    background-color:aliceblue ;
+    color:#1782ca;
+    box-shadow: 10px 5px 5px #9ad3f8;
+    border-radius: 30px;
+    padding:10px;
+    margin: 50px 0;
+}
+
+#clock{
+    font-size: 60px;
+    font-weight: 600;
+    font-weight: 600;
+    background-color:#ffe812;
+    color:#f75307;
+    box-shadow: 10px 5px 5px #f75307;
+    border-radius: 80px;
+    padding:20px;
+}
+
+#todo-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo-form input{
+    width: 600px;
+    height: 40px;
+    border:none;  
+    margin: 20px 0; 
+    border-radius: 20px;
+}
+
+#todo-form input:focus{
+    background-color:#ffe812;
+    color:#f75307;
+    border:#f75307 1px solid;
+    box-shadow: 10px 5px 5px #f75307;
+    border-radius: 20px;
+}
+
+
+
+#todo-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    background-color:aliceblue ;
+    color:#1782ca;
+    box-shadow: 10px 5px 5px #9ad3f8;
+    border-radius: 30px;
+    margin: 25px;
+    width: 600px;
+}
+
+#todo-list li{
+    margin: 5px 0;
+}
+
+#quote{
+    margin: 20px;
+    padding: 10px;
+    background-color:aliceblue ;
+    color:#1782ca;
+    box-shadow: 10px 5px 5px #9ad3f8;
+    border-radius: 30px;
+}
+
+#weather{
+    padding: 10px;
+    background-color:#8ce882 ;
+    color:#004b24;
+    box-shadow: 10px 5px 5px #46b950;
+    border-radius: 30px;
+
+}
+
+
+.button{ 
+    margin-left: 20px;
+    color:red;
+}
+
+.li{
+    width:80%;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li:hover{
+    background-color:#f7b4b4 ;
+    box-shadow: 10px 5px 5px#f77777;
+    
+}
+.button :hover{
+    cursor:pointer;
+}
